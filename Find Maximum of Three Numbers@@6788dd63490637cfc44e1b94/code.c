@@ -5,11 +5,11 @@ int main() {
     if (a>b && a>c)
     {
         if (b>c)
-            printf("%d",b)
+            printf("%d",b);
         else
-            printf("%d",c)
+            printf("%d",c);
     }
     else
-        printf("%d",a)
+        printf("%d",a);
     return 0;
 }
