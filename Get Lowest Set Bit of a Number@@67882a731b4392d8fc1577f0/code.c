@@ -1,7 +1,13 @@
 #include <stdio.h>
 int main() {
-    int a;
+    int a,count;
     scanf("%d",&a);
-    printf("%d",a&)
+    while(a&1==0)
+    {
+        a=n>>1;
+        count++;
+        break;
+    }
+    printf("%d",a);
     return 0;
-}
+}                                                                                                                                                                                                                  
