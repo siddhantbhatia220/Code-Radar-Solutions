@@ -7,6 +7,6 @@ int main() {
         a=n>>1;
         count++;
     }
-    printf("%d",a);
+    printf("%d",count);
     return 0;
 }                                                                                                                                                                                                                  
