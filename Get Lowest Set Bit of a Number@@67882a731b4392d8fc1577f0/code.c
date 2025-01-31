@@ -6,7 +6,6 @@ int main() {
     {
         a=n>>1;
         count++;
-        break;
     }
     printf("%d",a);
     return 0;
