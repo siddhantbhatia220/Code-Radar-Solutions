@@ -7,6 +7,6 @@ int main() {
         i++;
         a=a<<1;
     }
-    printf("%d",32-i)
+    printf("%d",32-i);
     return 0;
 }
