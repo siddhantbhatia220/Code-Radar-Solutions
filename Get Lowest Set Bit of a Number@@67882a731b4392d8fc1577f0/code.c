@@ -2,7 +2,7 @@
 int main() {
     int a,count;
     scanf("%d",&a);
-    while(a&1==0)
+    while((a&1)==0)
     {
         a=n>>1;
         count++;
