@@ -1,15 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    int a , i , j;
-    scanf("%d",&a);
-    for (i=a;i>=1;--i)
-        {
-            for (j=1;j<=1;++j)
-            {
-                printf("* ");
-            }
-            printf("\n");
-        }
+    int n , i , j;
+    scanf("%d",&n);
+    for (i=31;i>=0;i--)
+    {
+        if(n&(1<<i))
+            j=1;
+        if(j)
+            printf("%d",(n&(1<<i))?1:0);
+    }
+    if (!j)
+    {
+        printf("0");
+    } 
     return 0;
 }
